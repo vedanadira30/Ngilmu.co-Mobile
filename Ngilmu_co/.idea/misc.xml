@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Flutter-Simple-Project/Ngilmu_co/app/src/main/res/layout/activity_login.xml" value="0.184375" />
+        <entry key="..\:/Flutter-Simple-Project/Ngilmu_co/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Ngilmu_co/app/src/main/res/drawable/input_field.xml" value="0.1" />
+        <entry key="..\:/Ngilmu_co/app/src/main/res/layout/activity_dashboard.xml" value="0.184375" />
+        <entry key="..\:/Ngilmu_co/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
+        <entry key="..\:/Ngilmu_co/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/bg_biologi_xml.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/bg_dashboard.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/bg_english.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/bg_fisika.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/bg_geografi.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/bg_indonesia.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/bg_kimi.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/bg_kimia.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/bg_matematika.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/bg_payment.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/bg_pkn.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/bg_rv_tutor.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/bg_sejarah.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/bg_sosiologi.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/bg_tv_profil.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/btn_add.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/btn_chatme.xml" value="0.23692307692307693" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/btn_light_left.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/btn_light_right.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/ic_edit.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/ic_kimia.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/input_field.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/list_riwayat.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/rv_tutor_bg.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/search_tutor_bg.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/drawable/src_tutor_bg_left.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/activity_chat_tutor.xml" value="1.0" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/activity_chat_tutor2.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/activity_end_course.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/activity_menu.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/activity_payment.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/activity_pilih_kursus.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/activity_pilih_tutor.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/activity_update_data.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/fragment_beranda.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/fragment_pencarian.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/fragment_profil.xml" value="0.21" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/list_riwayat.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Ngilmu_co/app/src/main/res/layout/list_tutor.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

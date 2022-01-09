@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PilihTutorActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@color/purple">
+
+        <ImageView
+            android:id="@+id/leftarrow_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/tv_namatutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/leftarrow_pm"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Jamaludin Mahmud"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tv_instansi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_namatutor"
+            android:layout_marginTop="-5dp"
+            android:layout_marginLeft="25dp"
+            android:text="Universitas Jember"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/blue"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tv_mapel"
+            android:layout_width="100dp"
+            android:layout_height="14dp"
+            android:layout_below="@+id/tv_instansi"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-5dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Sejarah"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/iv_noname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_below="@+id/tv_mapel" />
+
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_noname"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Kebonsari, Sumbersari"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_jamkerja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_alamat"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Kamis, Jumat 08.00 - 10.00"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/iv_tutor"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_below="@+id/leftarrow_pm"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@+id/tv_namatutor"
+            android:src="@drawable/tutor_male" />
+
+        <Button
+            android:id="@+id/btn_belajar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_tutor"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/tv_jamkerja"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Mulai belajar"
+            android:textColor="@color/purple"
+            android:textSize="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:id="@+id/iv_map"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lokasi mentor"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/purple"
+            android:layout_marginTop="165dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_tentangtutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_map"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="About Tutor :"
+            android:fontFamily="@font/poppinsmedium"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/iv_tutor2"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_below="@+id/tv_tentangtutor"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/tutor_male"/>
+
+        <ImageView
+            android:id="@+id/tutor_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@id/tv_tentangtutor"
+            android:layout_toRightOf="@+id/iv_tutor2"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/tutor_male"/>
+
+        <TextView
+            android:id="@+id/tv_about"
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:layout_below="@+id/tutor_profile"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Tutor merupakan salah satu Mahasiswa Universitas Negeri Jember yang berkuliah di jurusan FKIp Sejarah dan sedang menempuh semester 3. Aktif dalam kegiatan organisasi dan lain-lain"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

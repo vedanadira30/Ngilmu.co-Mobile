@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".fragment.PencarianFragment">
+
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/poppinsbold"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="Mau belajar apa hari ini?"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:weightSum="7">
+            <EditText
+                android:id="@+id/etCariKursus"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="4"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/btn_light_left"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:hint="Cari kursus..."/>
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:background="@drawable/btn_light_right"
+                android:drawableRight="@drawable/ic_search"
+                android:paddingRight="15dp"
+                android:layout_weight="3"/>
+        </LinearLayout>
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="596dp"
+         android:layout_marginTop="35dp"
+         android:background="@color/white"
+         android:paddingLeft="20dp"
+         android:paddingTop="25dp"
+         android:paddingRight="20dp"
+         android:paddingBottom="30dp">
+
+         <TextView
+             android:id="@+id/tvRekomendasi"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="-5dp"
+             android:layout_marginBottom="15dp"
+             android:fontFamily="@font/poppinsmedium"
+             android:text="Rekomendasi belajar"
+             android:textColor="@color/black"
+             android:textStyle="bold" />
+
+         <HorizontalScrollView
+             android:id="@+id/hori_tutor"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/tvRekomendasi">
+
+
+         <LinearLayout
+             android:id="@+id/LLRekomendasiBelajar"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/tvRekomendasi"
+             android:orientation="horizontal"
+             android:weightSum="4">
+
+             <!-- petualangan -->
+             <LinearLayout
+                 android:id="@+id/llJamaludin"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:src="@drawable/tutor_male" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="10dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="Jamaludin"
+                     android:textColor="@color/black"
+                     android:textSize="14sp" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="Matematika"
+                     android:textColor="@color/black"
+                     android:textSize="10sp" />
+             </LinearLayout>
+
+             <!-- aksi -->
+             <LinearLayout
+                 android:id="@+id/llMahesa"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="15dp"
+                 android:layout_weight="1"
+                 android:gravity="center"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:src="@drawable/tutor_male2" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="10dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="Mahesa"
+                     android:textColor="@color/black"
+                     android:textSize="14sp" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="Sejarah"
+                     android:textColor="@color/black"
+                     android:textSize="10sp" />
+             </LinearLayout>
+
+             <!-- olahraga -->
+             <LinearLayout
+                 android:id="@+id/llLilisani"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="15dp"
+                 android:layout_weight="1"
+                 android:gravity="center"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:src="@drawable/tutor_female" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="10dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="Lilisani"
+                     android:textColor="@color/black"
+                     android:textSize="14sp" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="English"
+                     android:textColor="@color/black"
+                     android:textSize="10sp" />
+             </LinearLayout>
+
+             <!-- balap -->
+             <LinearLayout
+                 android:id="@+id/llJisoo"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="15dp"
+                 android:layout_weight="1"
+                 android:gravity="center"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:src="@drawable/tutor_female2" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="10dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="Jisoo"
+                     android:textColor="@color/black"
+                     android:textSize="14sp" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="Fisika"
+                     android:textColor="@color/black"
+                     android:textSize="10sp" />
+             </LinearLayout>
+         </LinearLayout>
+         </HorizontalScrollView>
+
+         <TextView
+             android:id="@+id/tvPilihmatapelajaran"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/hori_tutor"
+             android:layout_marginTop="15dp"
+             android:layout_marginBottom="15dp"
+             android:fontFamily="@font/poppinsmedium"
+             android:text="Pilih mata pelajaran"
+             android:textColor="@color/black"
+             android:textStyle="bold" />
+
+         <LinearLayout
+             android:id="@+id/LLpilihmatapelajaran1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/tvPilihmatapelajaran"
+             android:orientation="horizontal"
+             android:weightSum="4">
+
+             <!-- matematika -->
+             <LinearLayout
+                 android:id="@+id/llmatematika"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:background="@drawable/bg_matematika"
+                 android:gravity="center"
+                 android:orientation="vertical"
+                 android:padding="8dp">
+
+
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:layout_marginBottom="-10dp"
+                     android:src="@drawable/ic_matematika" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="10dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="MTK"
+                     android:textColor="@color/white"
+                     android:textSize="12sp" />
+
+             </LinearLayout>
+
+             <!-- aksi -->
+             <LinearLayout
+                 android:id="@+id/llfisika"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_weight="1"
+                 android:background="@drawable/bg_fisika"
+                 android:gravity="center"
+                 android:orientation="vertical"
+                 android:padding="8dp">
+
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:layout_marginBottom="-10dp"
+                     android:src="@drawable/ic_fisika" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="10dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="Fisika"
+                     android:textColor="@color/white"
+                     android:textSize="12sp" />
+             </LinearLayout>
+
+             <!-- olahraga -->
+             <LinearLayout
+                 android:id="@+id/llbiologi"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_weight="1"
+                 android:background="@drawable/bg_biologi"
+                 android:gravity="center"
+                 android:orientation="vertical"
+                 android:padding="8dp">
+
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:layout_marginBottom="-10dp"
+                     android:src="@drawable/ic_biologi" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="10dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="Biologi"
+                     android:textColor="@color/white"
+                     android:textSize="12sp" />
+             </LinearLayout>
+
+             <!-- balap -->
+             <LinearLayout
+                 android:id="@+id/llpkn"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_weight="1"
+                 android:background="@drawable/bg_pkn"
+                 android:gravity="center"
+                 android:orientation="vertical"
+                 android:padding="8dp">
+
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:layout_marginBottom="-10dp"
+                     android:src="@drawable/ic_pkn" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="10dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="PKN"
+                     android:textColor="@color/white"
+                     android:textSize="12sp" />
+             </LinearLayout>
+         </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/LLpilihmatapelajaran2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/LLpilihmatapelajaran1"
+             android:layout_marginTop="20dp"
+             android:orientation="horizontal"
+             android:weightSum="4">
+
+             <!-- matematika -->
+             <LinearLayout
+                 android:id="@+id/llenglish"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:background="@drawable/bg_english"
+                 android:gravity="center"
+                 android:orientation="vertical"
+                 android:padding="8dp">
+
+
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:layout_marginBottom="-10dp"
+                     android:src="@drawable/ic_english" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="10dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="English"
+                     android:textColor="@color/white"
+                     android:textSize="12sp" />
+
+             </LinearLayout>
+
+             <!-- aksi -->
+             <LinearLayout
+                 android:id="@+id/llindonesia"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_weight="1"
+                 android:background="@drawable/bg_indonesia"
+                 android:gravity="center"
+                 android:orientation="vertical"
+                 android:padding="8dp">
+
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:layout_marginBottom="-10dp"
+                     android:src="@drawable/ic_indonesia" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="10dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="B. Indo"
+                     android:textColor="@color/white"
+                     android:textSize="12sp" />
+             </LinearLayout>
+
+             <!-- olahraga -->
+             <LinearLayout
+                 android:id="@+id/llgeografi"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_weight="1"
+                 android:background="@drawable/bg_geografi"
+                 android:gravity="center"
+                 android:orientation="vertical"
+                 android:padding="8dp">
+
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:layout_marginBottom="-10dp"
+                     android:src="@drawable/ic_geografi" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="10dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="Geografi"
+                     android:textColor="@color/white"
+                     android:textSize="12sp" />
+             </LinearLayout>
+
+             <!-- balap -->
+             <LinearLayout
+                 android:id="@+id/llsejarah"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_weight="1"
+                 android:background="@drawable/bg_sejarah"
+                 android:gravity="center"
+                 android:orientation="vertical"
+                 android:padding="8dp">
+
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:layout_marginBottom="-10dp"
+                     android:src="@drawable/ic_sejarah" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="10dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="Sejarah"
+                     android:textColor="@color/white"
+                     android:textSize="12sp" />
+             </LinearLayout>
+         </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/LLpilihmatapelajaran3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/LLpilihmatapelajaran2"
+             android:layout_marginTop="20dp"
+             android:orientation="horizontal"
+             android:weightSum="4">
+
+             <!-- matematika -->
+             <LinearLayout
+                 android:id="@+id/llsosiologi"
+                 android:layout_width="5dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:background="@drawable/bg_sosiologi"
+                 android:gravity="center"
+                 android:orientation="vertical"
+                 android:padding="8dp">
+
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:layout_marginBottom="-10dp"
+                     android:src="@drawable/ic_sosiologi" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="10dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="Sosio"
+                     android:textColor="@color/white"
+                     android:textSize="12sp" />
+             </LinearLayout>
+             <!-- matematika -->
+             <LinearLayout
+                 android:id="@+id/llkimia"
+                 android:layout_width="5dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_weight="1"
+                 android:background="@drawable/bg_kimia"
+                 android:gravity="center"
+                 android:orientation="vertical"
+                 android:padding="8dp">
+
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:layout_marginBottom="-10dp"
+                     android:src="@drawable/ic_kimia" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="10dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="Kimia"
+                     android:textColor="@color/white"
+                     android:textSize="12sp" />
+             </LinearLayout>
+         </LinearLayout>
+     </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
